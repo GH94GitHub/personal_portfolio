@@ -1,2 +1,2 @@
-# personal_portfolio
+# Personal Portfolio
 Personal portfolio 
