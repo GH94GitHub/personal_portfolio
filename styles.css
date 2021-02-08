@@ -1,0 +1,41 @@
+
+/* Navigation */
+nav li{
+    display:inline;
+    list-style-type: none;
+    margin:0 20px;
+}
+nav a {
+    text-decoration: none;
+}
+
+/* Header */
+/* Main Body */
+.project {
+    min-height: 100px;
+    max-height: 200px;
+
+    flex: 0 0 51%;
+    margin: auto;
+}
+/* Footer */
+canvas {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .scene {
+    position: absolute;
+  }
+
+/* Responsive */
+.centerElmnts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rightElmnts {
+    display: flex;
+    justify-content: flex-end;
+}
