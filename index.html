@@ -3,12 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Portfolio Tony</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="./styles.css">
+
     </head>
     <body>
 
         <!--Navigation-->
-        <nav class="rightElmnts">
+        <nav>
             <ul>
                 <li><a href="#">Learn about me</a></li>
                 <li><a href="#">Projects</a></li>
@@ -21,22 +23,26 @@
         </div>
 
         <!--Main Body-->
-        <div id="main" class="centerElmnts">
-            <div class="project"><a href="#">Nazjatar Ref</a></div> <!--Nazjatar-->
-            <div class="project"><a href="#">BioSite Ref</a></div> <!--BioSite-->
-            <div class="project"><a href="#">Team_Cho_Ref</a></div> <!--Team_Cho_Chang-->
-        </div>
-
-        <!--Footer--> 
-        <div class="centerElmnts"><!--Github logo 3d description/about me-->
-            <div>
-                <p> <!--Description about me-->
-                    Hello my name is Tony blah blah blah... I have a long history of doing certain things and then other things I want you to realize all this information is about me, and not you I wonder who you are that I am talking to because this couldn't have come soon enuf pardon the spelling of enough I hiccuped and called it a day... Well... Thats all... Goodbye now..
-                </p>
+        <div role="main" class="container">
+            <div id="projects">
+                <div class="project col-7">
+                    <a href="#">Nazjatar Ref</a>
+                </div> <!--Nazjatar-->
+                <div class="project col-7">
+                    <a href="#">BioSite Ref</a>
+                </div> <!--BioSite-->
+                <a href="https://marblef2.github.io/Team_Cho_Chang/">
+                    <div class="project col-7">JavaScript Trivia</div>
+                </a> <!--Team_Cho_Chang-->
             </div>
-        </div>
-        <div class="scene">
-
+            <hr style="height: 4px; background-color:black; border-radius: 45%;">
+            <!--Footer--> 
+            <div class="row m-3">
+                <div class="col-8 col-sm-6 col-md-8"> <!--Description about me-->
+                    Hey, my name is Tony I'm in school for my bachelor's degree and looking forward to what the future has to hold. I plan to add more to this upcoming but this is to act as a placeholder for now.
+                </div>
+                <a href="https://github.com/GH94GitHub" class="col-4 col-md-3 scene"></a>
+            </div>
         </div>
 
     </body>

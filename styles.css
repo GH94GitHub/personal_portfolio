@@ -1,41 +1,27 @@
-
-/* Navigation */
-nav li{
-    display:inline;
-    list-style-type: none;
-    margin:0 20px;
+/* Elements */
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 20px;
 }
 nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
-/* Header */
-/* Main Body */
-.project {
-    min-height: 100px;
-    max-height: 200px;
-
-    flex: 0 0 51%;
-    margin: auto;
+hr {
+  border-radius: 50%;
 }
-/* Footer */
 canvas {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-
-  .scene {
-    position: absolute;
-  }
-
-/* Responsive */
-.centerElmnts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  /*position: relative;*/
+  width: 100%;
+  height: 100%;
 }
-.rightElmnts {
-    display: flex;
-    justify-content: flex-end;
+/* Classes */
+.project {
+  margin: 40px auto;
+  height: 100px;
+  border: 1px solid black;
+}
+.scene {
+  width: 125px;
+  height: 125px;
 }

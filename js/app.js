@@ -19,7 +19,7 @@ function init() {
 
   //Camera setup
   camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
-  camera.position.set(.3, 3, 10);
+  camera.position.set(0, 3, 9);
 
   const ambient = new THREE.AmbientLight(0x404040, 2);
   scene.add(ambient);
@@ -31,14 +31,13 @@ function init() {
   renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
   renderer.setSize(container.clientWidth, container.clientHeight);
   renderer.setPixelRatio(window.devicePixelRatio);
-
   container.appendChild(renderer.domElement);
 
   //Load Model
   let loader = new THREE.GLTFLoader();
-  loader.load("../media/GitHub-Logo.glb", function(gltf) {
-    scene.add(gltf.scene);
-    logo = gltf.scene.children[2];
+  loader.load("../media/GitHub-Logo.glb", function(glb) {
+    scene.add(glb.scene);
+    logo = glb.scene.children[2];
     logo.rotation.x = -1.83;
     logo.rotation.y = -.01;
     animate();
