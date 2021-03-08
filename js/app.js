@@ -35,7 +35,7 @@ function init() {
 
   //Load Model
   let loader = new THREE.GLTFLoader();
-  loader.load("../media/GitHub-Logo.glb", function(glb) {
+  loader.load("/media/GitHub-Logo.glb", function(glb) {
     scene.add(glb.scene);
     logo = glb.scene.children[2];
     logo.rotation.x = -1.83;
