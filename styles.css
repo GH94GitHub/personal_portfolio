@@ -19,7 +19,7 @@ canvas {
   height: 100%;
 }
 #projects #teamCho .project {
-  background-image: url("/media/javascript_trivia.jpg");
+  background-image: url("media/javascript_trivia.jpg");
 }
 #projects .project {
   background-position: center;
