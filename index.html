@@ -5,13 +5,16 @@
         <title>Portfolio Tony</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="./styles.css">
-
+        <!--Scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/js/three.min.js"></script>
+        <script src="/js/GLTFLoader.js"></script>
     </head>
     <body>
 
         <!--Navigation-->
         <nav>
-            <ul>
+            <ul class="p-2">
                 <li><a href="#">Learn about me</a></li>
                 <li><a href="#">Projects</a></li>
             </ul>
@@ -31,22 +34,23 @@
                 <div class="project col-7">
                     <a href="#">BioSite Ref</a>
                 </div> <!--BioSite-->
-                <a href="https://marblef2.github.io/Team_Cho_Chang/">
-                    <div class="project col-7">JavaScript Trivia</div>
+                <a id="teamCho" href="https://marblef2.github.io/Team_Cho_Chang/" target="_blank">
+                    <div class="project col-7"></div>
                 </a> <!--Team_Cho_Chang-->
             </div>
-            <hr style="height: 4px; background-color:black; border-radius: 45%;">
             <!--Footer--> 
-            <div class="row m-3">
-                <div class="col-8 col-sm-6 col-md-8"> <!--Description about me-->
-                    Hey, my name is Tony I'm in school for my bachelor's degree and looking forward to what the future has to hold. I plan to add more to this upcoming but this is to act as a placeholder for now.
+            <div id="footer" class="m-3" style="opacity: 0;">
+                <hr style="height: 4px; background-color:black; border-radius: 45%;">
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-6" style="margin: auto;"> 
+                        Hey, my name is Tony I'm in school for my bachelor's degree and looking forward to what the future has to hold. I plan to add more to this upcoming but this is to act as a placeholder for now.
+                    </div>
+                    <a href="https://github.com/GH94GitHub" target="_blank" class="col-4 col-md-3 scene"></a>
                 </div>
-                <a href="https://github.com/GH94GitHub" class="col-4 col-md-3 scene"></a>
             </div>
         </div>
 
     </body>
-    <script src="./js/three.min.js"></script>
-    <script src="./js/GLTFLoader.js"></script>
-    <script src="./js/app.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/site.js"></script>
 </html>
