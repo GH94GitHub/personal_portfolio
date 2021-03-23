@@ -7,6 +7,9 @@ nav li {
   list-style-type: none;
   margin: 0 20px;
 }
+nav li #diagramsLink:hover #diagramsDiv {
+  display: block;
+}
 nav a {
   text-decoration: none;
   color: white;
@@ -19,7 +22,7 @@ canvas {
   height: 100%;
 }
 #projects #teamCho .project {
-  background-image: url("media/javascript_trivia.jpg");
+  background-image: url("/media/javascript_trivia.jpg");
 }
 #projects .project {
   background-position: center;
