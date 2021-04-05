@@ -1,3 +1,10 @@
+/*====================
+; Title: Site JS
+; Author: George Henderson
+; Date: 29 March 2021
+; Description: This is the js for the Home page.
+;====================*/
+
 function fadeIn(element) {
     var op = 0.1;  // initial opacity
     // element.style.display = 'block';
@@ -23,11 +30,6 @@ function fadeOut(element) {
     }, 15);
 }
 
-var count = 0;
-$(window).on('scroll', function() {
-    count += 10;
-
-})
  $(function() {
     fadeIn($('#footer')[0]);
 });
