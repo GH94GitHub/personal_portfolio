@@ -10,7 +10,8 @@ var presentationNames = [
     "Representational State Transfer",
     "RESTful APIs",
     "SOAP",
-    "JSON APIs"
+    "JSON APIs",
+    "Service-Oriented Architecture"
 ];
 // Relative URLs to videos
 var baseURL = "./restful-api-presentations/";
@@ -18,7 +19,8 @@ var presentationURLs = [
     baseURL + "henderson_presentation_1.3.mp4",
     baseURL + "henderson_presentation_2.2.mp4",
     baseURL + "henderson_presentation_3.3.mp4",
-    baseURL + "henderson_presentation_4.2.mp4"
+    baseURL + "henderson_presentation_4.2.mp4",
+    baseURL + "henderson_presentation_7.2.mp4"
 ];
 
 // Index for the video currently displayed
