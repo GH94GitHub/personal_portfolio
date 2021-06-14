@@ -12,7 +12,8 @@ var presentationNames = [
     "SOAP",
     "JSON APIs",
     "Service-Oriented Architecture",
-    "The Technology Value Stream"
+    "The Technology Value Stream",
+    "DevOps Automated Testing"
 ];
 var presentationURLs = [
     "./restful-api-presentations/henderson_presentation_1.3.mp4",
@@ -20,7 +21,8 @@ var presentationURLs = [
     "./restful-api-presentations/henderson_presentation_3.3.mp4",
     "./restful-api-presentations/henderson_presentation_4.2.mp4",
     "./restful-api-presentations/henderson_presentation_7.2.mp4",
-    "./devops-presentations/henderson_presentation_1.2.mp4"
+    "./devops-presentations/henderson_presentation_1.2.mp4",
+    "./devops-presentations/henderson_presentation_3.2.mp4"
 
 ];
 
