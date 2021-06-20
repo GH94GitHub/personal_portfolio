@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Presentations</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/presentations.css">
+        <!--Scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!--Navigation-->
+        <nav>
+            <ul class="p-2">
+                <li><a href="/">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="../web-335/henderson_diagrams.html">Diagrams</a></li>
+                <li><a href="#">Presentations</a></li>
+            </ul>
+        </nav>
+        <!--Main Body-->
+        <div class="container" role="main">
+            <div class="videoPlayer row">
+                <div id="videoControls" class="col-9">
+                    <div class="row videoTitleRow">
+                        <button class="previous grow">&laquo; Previous</button>
+                        <div>
+                            <h3 id="videoTitle" style="text-align: center;">Representational State Transfer</h3>
+                            <h6 style="text-align: center;"><span id="videoPosition">1</span></h6>
+                        </div>
+                        <button class="next grow">Next &raquo;</button>
+                    </div>
+                    <hr>
+                    <div style="margin: auto;">
+                        <video id="video" controls reload="none" style="width:100%;">
+                            <source src="./restful-api-presentations/henderson_presentation_1.3.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div><!--Video Controls-->
+                <div id="videosSidebar" class="col-3">
+                        <video class="activeVideo grow" style="width: 100%;">
+                            <source src="./restful-api-presentations/henderson_presentation_1.3.mp4" type="video/mp4" />
+                        </video>
+                        <video class="grow" style="width:100%;">
+                            <source src="./restful-api-presentations/henderson_presentation_2.2.mp4" type="video/mp4" />
+                        </video>
+                        <video class="grow" style="width:100%;">
+                            <source src="./restful-api-presentations/henderson_presentation_3.3.mp4" type="video/mp4" />
+                        </video>
+                        <video class="grow" style="width:100%;">
+                            <source src="./restful-api-presentations/henderson_presentation_4.2.mp4" type="video/mp4" />
+                        </video>
+                        <video class="grow" style="width:100%;">
+                            <source src="./restful-api-presentations/henderson_presentation_7.2.mp4" type="video/mp4" />
+                        </video>
+                        <video class="grow" style="width:100%;">
+                            <source src="./devops-presentations/henderson_presentation_1.2.mp4" type="video/mp4" />
+                        </video>
+                        <video class="grow" style="width:100%;">
+                            <source src="./devops-presentations/henderson_presentation_3.2.mp4" type="video/mp4" />
+                        </video>
+                </div><!--Videos Sidebar-->
+            </div>
+        </div>
+    </body>
+    <script src="../js/presentations.js"></script>
+</html>

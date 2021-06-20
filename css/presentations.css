@@ -1,0 +1,28 @@
+.videoPlayer {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.videoPlayer #videoControls {
+  padding: 5px 15px;
+}
+.videoPlayer #videoControls .videoTitleRow {
+  margin: 5px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.videoPlayer #videosSidebar {
+  height: inherit;
+  overflow: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.videoPlayer #videosSidebar .activeVideo {
+  opacity: 1;
+}
+.videoPlayer #videosSidebar video {
+  cursor: pointer;
+  opacity: 0.5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,29 @@
+/* Images */
+.imgTall {
+  height: 200px;
+  width: 175px;
+}
+.imgLong {
+  width: 400px;
+  height: 175px;
+}
+/* Horizontal section of Images */
+.imageGroup a {
+  color: black;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+.diagramsContainer {
+  border: 1px solid black;
+}
+.diagramsContainer .diagramsTitleRow {
+  margin: 5px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Modal */
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
