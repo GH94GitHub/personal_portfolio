@@ -29,6 +29,9 @@ canvas {
 #projects #composer .project {
   background-image: url("/media/composer-app.jpg")
 }
+#projects #gpaCalculator .project {
+  background-image: url("/media/gpa-calculator-app.jpg")
+}
 #projects .project {
   background-position: center;
   background-size: cover;
