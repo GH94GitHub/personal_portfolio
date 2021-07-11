@@ -24,13 +24,13 @@ canvas {
 }
 /* Projects */
 #projects #teamCho .project {
-  background-image: url("/media/javascript_trivia.jpg");
+  background-image: url("media/javascript_trivia.jpg");
 }
 #projects #composer .project {
-  background-image: url("/media/composer-app.jpg")
+  background-image: url("media/composer-app.jpg")
 }
 #projects #gpaCalculator .project {
-  background-image: url("/media/gpa-calculator-app.jpg")
+  background-image: url("media/gpa-calculator-app.jpg")
 }
 #projects .project {
   background-position: center;
