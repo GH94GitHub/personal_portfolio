@@ -32,6 +32,9 @@ canvas {
 #projects #gpaCalculator .project {
   background-image: url("/personal_portfolio/media/gpa-calculator-app.jpg")
 }
+#projects #in-n-out-books .project {
+  background-image: url('/personal_portfolio/media/in-n-out-books.jpg')
+}
 #projects .project {
   background-position: center;
   background-size: cover;
